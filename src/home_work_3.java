@@ -2,14 +2,11 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class home_work_3 {
-
     public static void main(String[] args) {
         GuessTheNumber();
     }
-
     public static void GuessTheNumber(){
         Scanner in = new Scanner(System.in);
-
         int a, n = (int)(Math.random()*10);
         System.out.println("Компьютер загадал число от 0 до 9, угадайте это число с 3 попыток.");
         for (int i = 0; i < 3; i++){
